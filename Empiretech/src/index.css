@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --header-height: 3.5rem;
+}
+
+#header {
+  height: var(--header-height);
+  top: 0;
+}
+
+#content {
+  margin-top: var(--header-height);
+}
+
+.height {
+  height: calc(100vh - calc(100vh - 100%) - var(--header-height));
+  position: fixed;
+  -webkit-backface-visibility: hidden;
+}
+
+.min-vh {
+  min-height: calc(100vh - var(--header-height));
+}
+
+.vh {
+  min-height: calc(100vh - calc(100vh - 100%) - var(--header-height));
+}
+
+.nav {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  z-index: 0;
+}
+
+.min-h-3 {
+  min-height: 6em;
+}
+
+.min-h-1 {
+  min-height: 1em;
+}
+
+thead.report-header {
+  display: table-header-group;
+}
+
+tfoot.report-footer {
+  display: table-footer-group;
+}

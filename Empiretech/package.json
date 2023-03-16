@@ -1,0 +1,62 @@
+{
+  "name": "empiretech",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.0.0",
+    "@headlessui/react": "^0.3.1",
+    "@hookform/error-message": "0.0.5",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "algoliasearch": "^4.8.6",
+    "autoprefixer": "^9.8.6",
+    "chart.js": "^2.9.4",
+    "firebase": "^8.2.9",
+    "moment": "^2.29.1",
+    "postcss": "^7.0.35",
+    "react": "^17.0.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.4",
+    "react-instantsearch-dom": "^6.10.3",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-scrolllock": "^5.0.1",
+    "react-select": "^4.3.0",
+    "react-to-print": "^2.12.3",
+    "redux-react-session": "^2.6.1",
+    "serve": "^11.3.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "web-vitals": "^0.2.4",
+    "wouter": "^2.7.3"
+  },
+  "scripts": {
+    "start": "serve -s build",
+    "run": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}
